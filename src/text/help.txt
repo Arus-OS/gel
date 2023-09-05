@@ -1,0 +1,30 @@
+BOLD_ITALIC gel - Package manager for Arus
+
+BOLD ==================== USAGE ====================
+CG    gel <sub-command> [<args> ...]
+
+BOLD ==================== SUB-COMMANDS ====================
+CG    gel install <package>    Install a package
+CG    gel remove <package>     Remove a package
+CG    gel create <path>        Create a package
+CG    gel list                 List installed packages
+CG    gel update               Update all packages
+CG    gel upgrade              Upgrade all packages
+CG    gel search <package>     Search for a package
+CG    gel info <package>       Show information about a package
+CG    gel help                 Show this help message
+CG    gel version              Show version information
+
+BOLD ==================== EXAMPLES ====================
+CG    gel install git
+CG    gel remove git
+CG    gel create /path/to/package
+CG    gel list
+CG    gel update
+CG    gel upgrade
+CG    gel search git
+CG    gel info git
+CG    gel help
+CG    gel version
+
+For more information, visit: https://github.com/arus-os/gel
